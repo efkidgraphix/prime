@@ -43,9 +43,9 @@ module.exports = {
     const botPrefix = global.GoatBot.config.prefix;
     const authorName = global.GoatBot.config.authorName;
     const authorFB = global.GoatBot.config.authorFB;
-    const authorInsta = "https://www.instagram.com/xnil867";
+    const authorInsta = "https://www.instagram.com/efkidgamer270";
     const authorEmail = global.GoatBot.config.authorEmail;
-    const authorGithub = "https://github.com/X-nil143";
+    const authorGithub = "https://github.com/efkidgraphix";
     const status = "𝙎𝙞𝙣𝙜𝙡𝙚";
     const timeStart = Date.now();
 
@@ -63,7 +63,7 @@ module.exports = {
 
     const ping = Date.now() - timeStart;
 
-    const replyMessage = `===「 Bot & Owner Info 」===
+    const replyMessage = `===「prime Bot & Owner Info 」===
 ❏ Bot Name: ${botName}
 ❏ Bot Prefix: ${botPrefix}
 ❏ Author Name: ${authorName}
