@@ -49,8 +49,7 @@ module.exports = {
     const status = "𝙎𝙞𝙣𝙜𝙡𝙚";
     const timeStart = Date.now();
 
-    const urls = JSON.parse(fs.readFileSync('scripts/cmds/xnil/info.json'));
-    const link = urls[Math.floor(Math.random() * urls.length)];
+    
 
     // Get current date and time in Asia/Kathmandu timezone
     const now = moment().tz('Asia/Dhaka');
